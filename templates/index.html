@@ -6,6 +6,15 @@
     <title>Performance Monitoring Website</title>
 </head>
 <body>
-    
+    <h1>Server Performance</h1>
+    <h2>CPU</h2>
+    <p>CPU Usage: {{cpuusage}}%</p>
+    <h2>Memory (RAM)</h2>
+    <p>Used: {{memory_used}} GiB / {{memory_total}} GiB ({{memory_percent}}%)</p>
+    <h2>Disk (Storage)</h2>
+    <p>Used: {{disk_used}} GiB / {{disk_total}} GiB ({{disk_percent}}%)</p>
+    <h2>Network</h2>
+    <p>Sent: {{network_sent}} GiB</p>
+    <p>Received: {{network_recv}} GiB</p>
 </body>
 </html>
