@@ -30,4 +30,4 @@ def function1():
         network_recv=network_recv
     )
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=20007, debug=True)
